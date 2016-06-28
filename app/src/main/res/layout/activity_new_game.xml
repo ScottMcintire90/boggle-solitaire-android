@@ -9,4 +9,39 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.epicodus.bogglesolitaire.NewGameActivity">
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="RTASFEBU"
+        android:id="@+id/randomLetters"
+        android:layout_marginTop="116dp"
+        android:textSize="40sp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:letterSpacing=".4" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="37dp"
+        android:text="Input guess"
+        android:textSize="40sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Boggle Letters"
+        android:id="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
 </RelativeLayout>
